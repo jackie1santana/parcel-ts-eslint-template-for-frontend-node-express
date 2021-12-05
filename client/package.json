@@ -1,0 +1,28 @@
+{
+  "name": "html_canv",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "(parcel ./src/index.html) & parcel watch ./src/index.html",
+    "prod": "parcel build ./src/index.html",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "cssnano": "^4.1.11",
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  }
+}
