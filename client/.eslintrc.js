@@ -14,6 +14,11 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
   ],
-  rules: {
+ rules: {
+    'prettier/prettier': 'error',
+    'import/extensions': 'off',
+    'no-console': 'off',
+    'import/prefer-default-export': 'off',
+    'linebreak-style': 'off',
   },
 };
