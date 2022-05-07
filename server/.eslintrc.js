@@ -27,5 +27,10 @@ module.exports = {
     'no-debugger': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+      'linebreak-style': 'off',
+    'arrow-parens': 'off',
+    'eol-last': 'off',
+    semi: 0,
+    indent: 'off',
   },
 };
